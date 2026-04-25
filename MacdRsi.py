@@ -115,7 +115,7 @@ CRITERIOS DE ANALISE:
 """
         send_message(regras)
         
-        bars = binance.fetch_ohlcv('BTC/USDT', timeframe='5m', limit=75)
+        bars = binance.fetch_ohlcv('BTC/USDT', timeframe='15m', limit=75)
         df_btc = pd.DataFrame(bars, columns=['time', 'abertura', 'max', 'min', 'fechamento', 'volume'])
         df_btc = calculate_indicators(df_btc)
         trend = check_trend_btc(df_btc)
