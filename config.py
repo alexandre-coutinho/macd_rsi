@@ -1,0 +1,2 @@
+binancekey = 'pVFS1aVoGBOps52yTHRGuZfTMmsYDM1hzFFqSqCfvVNMD5GLIE0PupHHmVbqfyEP'
+binancesecret = 'IoOOxBlARERiFZlNykRqpFq5NjSukOizqItuLGewdj85BRqxqXuQtiIcidNIsWg2'
